@@ -23,3 +23,7 @@ h1 {
     border-bottom: 1px solid #fff;
     padding-bottom: 6px;
 }
+
+.update {
+	color: red;
+}
