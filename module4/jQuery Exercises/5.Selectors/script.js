@@ -5,6 +5,8 @@ $(document).ready(function(){
 			console.log('Step 2');
 		$('.sandbox p:nth-child(3)').remove();
 			console.log('Step 3');
+		$('.sandbox ul li:nth-child(4)').css('color','red');
+			console.log('Step 4');
+		$('.sandbox ul li:nth-child(2)').text('I did it!');
+			console.log('Step 5');
 });
-		//*$('div.sandbox p').css({'border-width': '2px','border-style': 'solid', 'border-color': 'rgba(255,255,128,0.8)'});
-		//*$('.sample').children('.firstParagraph').children('.nextText').text(word);
